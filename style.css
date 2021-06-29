@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: #ececec;
+    overflow: hidden;
+}
+.flex-row {
+    display: flex;
+}
+.wrapper {
+    box-shadow: 0 0 100px #000;
+}
+canvas#signature-pad {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    cursor: cell;
+}
+button#clear {
+    height: 100%;
+    background: #ff8271;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+button#clear span {
+    transform: rotate(90deg);
+    display: block;
+}
